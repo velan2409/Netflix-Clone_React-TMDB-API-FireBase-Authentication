@@ -1,0 +1,134 @@
+.hero {
+    position: relative;
+}
+
+.banner-img {
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+.hero-caption {
+    position: absolute;
+    width: 100%;
+    padding-left: 4%;
+    bottom: 0;
+}
+
+.caption-img {
+    width: 90%;
+    max-width: 420px;
+}
+
+.hero-caption p {
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.hero-btns .btn img {
+    width: 25px;
+}
+
+.hero-btns .btn {
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    display: inline-flex;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-btns .dark-btn {
+    color: #fff;
+    background: #6d6d6eb3;
+}
+
+.hero-btns .btn:hover {
+    background: #ffffffbf;
+}
+
+.hero-btns .dark-btn:hover {
+    background: #6d6d6e66;
+}
+
+.more-cards {
+    padding-left: 4%;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 800px) {
+    .banner-img {
+        min-height: 450px;
+        object-fit: cover;
+        object-position: center top;
+        mask-image: linear-gradient(to right, transparent, black 85%);
+        -webkit-mask-image: linear-gradient(to right, transparent, black 85%);
+    }
+
+    .hero-caption {
+        bottom: -50px;
+    }
+
+    .more-cards {
+        margin-top: 50px;
+    }
+
+    .hero-caption p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .hero-btns .btn {
+        padding: 6px 15px;
+        font-size: 13px;
+    }
+
+    .caption-img {
+        width: 70%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner-img {
+        min-height: 400px;
+        object-fit: cover;
+        object-position: center top;
+        mask-image: linear-gradient(to right, transparent, black 90%);
+        -webkit-mask-image: linear-gradient(to right, transparent, black 90%);
+    }
+
+    .hero-caption {
+        padding-bottom: 20px;
+        bottom: -120px;
+    }
+
+    .more-cards {
+        margin-top: 140px;
+    }
+
+    .hero-caption p {
+        display: none;
+    }
+
+    .caption-img {
+        width: 60%;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .hero-btns {
+        margin-bottom: 30px;
+    }
+}

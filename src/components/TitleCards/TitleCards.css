@@ -1,0 +1,66 @@
+.title-cards {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title-cards h2 {
+    margin-bottom: 10px;
+}
+
+.card-list {
+    display: flex;
+    gap: 13px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.card-list::-webkit-scrollbar {
+    display: none;
+    min-width: 220px;
+    /* important for horizontal scroll */
+}
+
+.card-list img {
+    width: 220px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-list .card {
+    position: relative;
+}
+
+.card-list .card p {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    /* change from right → left */
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 800px) {
+    .card-list img {
+        width: 180px;
+    }
+
+    .card-list::-webkit-scrollbar {
+        min-width: 180px;
+    }
+}
+
+@media (max-width: 500px) {
+    .card-list img {
+        width: 140px;
+    }
+
+    .card-list::-webkit-scrollbar {
+        min-width: 140px;
+    }
+
+    .title-cards h2 {
+        font-size: 18px;
+    }
+}
