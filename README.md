@@ -230,30 +230,3 @@ https://github.com/velan2409
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:E50914&height=120&section=footer"/>
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p align="center">
-<img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vite-Build%20Tool-646CFF?logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Firebase-Authentication-FFCA28?logo=firebase&logoColor=black"/>
-<img src="https://img.shields.io/badge/TMDB-Movie%20API-01B4E4"/>
-<img src="https://img.shields.io/badge/Made%20By-Velan-E50914"/>
-<img src="https://komarev.com/ghpvc/?username=yourusername&label=Repo%20Views&color=E50914&style=flat"/>
-</p>
-
----
-
-
