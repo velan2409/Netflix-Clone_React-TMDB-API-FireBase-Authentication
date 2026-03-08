@@ -1,81 +1,85 @@
 # Netflix-Clone-React-TMDB-API-FireBase-Authentication-
 Netflix &amp; Netmirror Clone – (React + TMDB API + FireBase Authentication)
 
+<!-- Animated Header -->
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E50914,100:000000&height=220&section=header&text=Netflix%20Clone&fontSize=40&fontColor=ffffff&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E50914,50:000000,100:1c1c1c&height=240&section=header&text=Netflix%20Clone&fontSize=45&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
+</p>
+
+<!-- Typing Animation -->
+
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&pause=1000&color=E50914&center=true&vCenter=true&width=600&lines=Netflix+Clone+Built+With+React;Firebase+Authentication+Integration;TMDB+Movie+API+Powered+App;Modern+Frontend+Project"/>
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/React-18-61DAFB?logo=react"/>
-<img src="https://img.shields.io/badge/Vite-Build%20Tool-646CFF?logo=vite"/>
-<img src="https://img.shields.io/badge/Firebase-Authentication-FFCA28?logo=firebase"/>
-<img src="https://img.shields.io/badge/TMDB-API-01B4E4"/>
-<img src="https://img.shields.io/badge/Made%20By-Velan-red"/>
+<img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vite-Build%20Tool-646CFF?logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-Authentication-FFCA28?logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/TMDB-Movie%20API-01B4E4"/>
+<img src="https://img.shields.io/badge/Made%20By-Velan-E50914"/>
 </p>
 
 ---
 
-# 📌 Project Overview
+# 🎬 Netflix Clone
 
-This project is a **Netflix-inspired movie streaming web application** built using **React, Vite, Firebase Authentication, and The Movie Database (TMDB) API**.
+A **Netflix-inspired movie streaming web application** developed using **React, Vite, Firebase Authentication, and The Movie Database (TMDB) API**.
 
-The application allows users to **browse trending movies, explore movie details, and watch trailers** through a modern **Netflix-style interface**.
-User authentication is securely handled using **Firebase Authentication**, enabling users to sign up, log in, and manage sessions.
+The project replicates the **core Netflix browsing experience**, allowing users to explore trending movies, view details, and watch trailers within a modern responsive UI.
 
-This project demonstrates **modern frontend development practices including component-based architecture, API integration, and authentication management**.
+It demonstrates **modern frontend development practices including API integration, authentication systems, and reusable component architecture**.
 
 ---
 
 # 🚀 Core Features
 
-🎬 Netflix-inspired modern UI
-🔥 Trending and popular movie sections
-📺 Embedded movie trailer player
-🎥 Dynamic movie banners and thumbnails
-🔐 Secure user authentication with Firebase
-📱 Fully responsive layout
-⚡ Fast performance using Vite build tool
-🧩 Reusable React component architecture
-🎞️ Live movie data fetched from TMDB API
+* 🎬 Netflix-style homepage interface
+* 🔥 Trending and popular movie sections
+* 🎥 Dynamic movie banners
+* 📺 Movie trailer player
+* 🔐 Secure login and signup using Firebase Authentication
+* 📱 Fully responsive design
+* ⚡ Fast development environment using Vite
+* 🧩 Modular and reusable React components
+* 🎞️ Live movie data fetched from TMDB API
 
 ---
 
 # 🧰 Technology Stack
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=react,vite,firebase,js,html,css,git,github"/>
-
+<img src="https://skillicons.dev/icons?i=react,vite,firebase,js,html,css,git,github" />
 </p>
 
-| Technology              | Purpose                     |
-| ----------------------- | --------------------------- |
-| React                   | Frontend UI development     |
-| Vite                    | Fast development build tool |
-| Firebase Authentication | User login & signup system  |
-| TMDB API                | Movie database and content  |
-| JavaScript              | Application logic           |
-| HTML5                   | Structure                   |
-| CSS3                    | Styling                     |
-| Git & GitHub            | Version control             |
+| Technology              | Purpose                 |
+| ----------------------- | ----------------------- |
+| React                   | Frontend UI development |
+| Vite                    | Fast build tool         |
+| Firebase Authentication | User authentication     |
+| TMDB API                | Movie data provider     |
+| JavaScript              | Application logic       |
+| HTML5                   | Structure               |
+| CSS3                    | Styling                 |
+| Git & GitHub            | Version control         |
 
 ---
 
 # 🔐 Firebase Authentication
 
-The application integrates **Firebase Authentication** to securely manage user access.
+Firebase Authentication is used to securely manage user accounts.
 
-### Authentication Capabilities
+### Authentication Features
 
-✔ User Registration (Sign Up)
-✔ Secure Login System
-✔ User Logout
-✔ Authentication State Management
+* User Registration (Sign Up)
+* Secure Login System
+* User Logout
+* Persistent Authentication Sessions
 
 ### Firebase Configuration Example
 
-```id="h1e2md"
+```javascript
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
@@ -94,20 +98,22 @@ export const auth = getAuth(app);
 
 # 🎥 TMDB API Integration
 
-Movie information is fetched using **The Movie Database (TMDB) API**, which provides:
+Movie data is retrieved from **The Movie Database (TMDB)** API.
 
-* Trending Movies
-* Popular Movies
-* Movie Posters
-* Movie Descriptions
-* Movie Trailers
+Available movie data includes:
 
-Official Website
+* Trending movies
+* Popular movies
+* Movie posters
+* Movie descriptions
+* Movie trailers
+
+Official website:
 https://www.themoviedb.org/
 
 Example API usage:
 
-```id="t6k3zs"
+```javascript
 const API_KEY = "YOUR_TMDB_API_KEY";
 ```
 
@@ -115,7 +121,7 @@ const API_KEY = "YOUR_TMDB_API_KEY";
 
 # 📂 Project Structure
 
-```id="vxtpt3"
+```
 Netflix-Clone
 │
 ├── public
@@ -145,39 +151,33 @@ Netflix-Clone
 
 Clone the repository
 
-```id="igc0k0"
+```bash
 git clone https://github.com/yourusername/netflix-clone.git
 ```
 
-Navigate to the project directory
+Navigate into the project directory
 
-```id="i0o4em"
+```bash
 cd netflix-clone
 ```
 
 Install dependencies
 
-```id="2mqy9d"
+```bash
 npm install
 ```
 
 Start the development server
 
-```id="8t1rlp"
+```bash
 npm run dev
 ```
 
-Application will run at:
+Application runs at:
 
-```id="s9bhve"
+```
 http://localhost:5173
 ```
-
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
 
 ---
 
@@ -186,11 +186,17 @@ This project is licensed under the **MIT License**.
 **Velan P**
 
 💻 Java Full Stack Developer
-🚀 Passionate about Web Development & AI Engineering
+🚀 Passionate about Web Development & AI Projects
 
 GitHub
 https://github.com/yourusername
 
 ---
 
-⭐ If you find this project useful, consider **starring the repository**.
+<p align="center">
+⭐ If you like this project, consider giving it a star on GitHub!
+</p>
+
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:E50914&height=120&section=footer"/>
+</p>
